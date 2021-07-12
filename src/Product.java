@@ -1,12 +1,15 @@
 
+
 public class Product {
-	 private String productID;
-	    private String productName;
-	    Product(String p_id, String p_name){
-	      productID = p_id;
-	      productName = p_name;
-	    }
-	    public String getDetailProduct(){
-	      return "Product ID : "+productID+" and Product Name : "+productName;
-	    }
+    private String productID;
+    private String productName;
+
+    Product(String p_id, String pName) {
+        this.productID = p_id;
+        this.productName = pName;
+    }
+
+    public String getDetail() {
+        return "com.swa.oop.Product ID : " + this.productID + " and com.swa.oop.Product Name : " + this.productName;
+    }
 }
